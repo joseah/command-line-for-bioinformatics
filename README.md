@@ -40,7 +40,7 @@ less filename
 
 > Note:
 
-> - Use up and down to scroll or RePag and AvPag. You can also use enter to go down.
-> - To exit, type q.
-> - Once you typed q, the prompt will be available again.
+> - Use \<up\> and \<down\> to scroll or \<RePag\> and \<AvPag\>. You can also use enter to go down.
+> - To exit, type \<q\>.
+> - Once you typed \<q\>, the prompt will be available again.
 
