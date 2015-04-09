@@ -25,7 +25,7 @@ Get all columns starting from column number 3
 cut -f3- filename
 ```
 Often, files are not tab-separated. When other delimiter is used, you can specify the delimiter of interest to cut. Use the **-d** option to do this.
-Example: 
+Example:
 Get first 3 columns separated by spaces
 ```
 cut -f1-3 -d' ' filename
@@ -38,6 +38,9 @@ When trying to see the content of a file in terminal, use **less** command.
 less filename
 ```
 
-Use *<up>* and *<down>* to scroll or *<RePag>* and *<AvPag>*. You can also use <enter> to go down.
-To exit, type *<q>*.
-Once you typed *<q>*, the prompt is available again.
+> Note:
+
+> - Use up and down to scroll or RePag and AvPag. You can also use enter to go down.
+> - To exit, type q.
+> - Once you typed q, the prompt will be available again.
+
