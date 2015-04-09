@@ -1,5 +1,5 @@
 # One-liners for exploratory data analysis
-===================
+--------------
 These are some one-liners and commands that I have found useful in bioinformatics and genomics when exploring text files
 
 # Basic commands in unix
@@ -30,10 +30,13 @@ Get first 3 columns separated by spaces
 ```
 cut -f1-3 -d' ' filename
 
+## less
 
+When trying to see the content of a file in terminal, use **less** command.
 
-
-
-
-
-
+```
+less filename
+```
+Use *<up>* and *<down>* to scroll or *<RePag>* and *<AvPag>*. You can also use <enter> to go down.
+To exit, type *<q>*.
+Once you typed *<q>*, the prompt is available again.
