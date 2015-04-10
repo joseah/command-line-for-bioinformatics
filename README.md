@@ -49,9 +49,22 @@ less filename
 Similar to **less**. Displays text files printing their content on the terminal.
 
 ```
-less filename
+more filename
 ```
 > Note:
 
 > - Unlike the **less** command, just use \<enter\> to explore the text.
 > - Printed text will remain on screen unless **clear** command is used.
+
+## wc
+
+For knowing the number of lines, words and characters in a text file use the **wc** command.
+```
+wc filename
+```
+If you just want to know the number of lines, use **-l**.
+```
+wc -l filename
+```
+
+
