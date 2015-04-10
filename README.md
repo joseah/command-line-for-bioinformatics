@@ -44,3 +44,14 @@ less filename
 > - To exit, type \<q\>.
 > - Once you typed \<q\>, the prompt will be available again.
 
+## more
+
+Similar to **less**. Displays text files printing their content on the terminal.
+
+```
+less filename
+```
+> Note:
+
+> - Unlike the **less** command, just use \<enter\> to explore the text.
+> - Printed text will remain on screen unless **clear** command is used.
